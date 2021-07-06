@@ -1,13 +1,22 @@
+@import url(//db.onlinewebfonts.com/c/416ff9cebc6b09a8d7c97e7d6e632cb9?family=Graphik+LC+TT+Thin);
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  position: relative;
+  background-color: #ffffff;
+  font-family: Graphik LC TT, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Graphik LC TT, sans-serif;
 }
